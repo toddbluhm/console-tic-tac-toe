@@ -119,6 +119,7 @@ function NextTick () {
       // Advance to the next frame
       return NextTick()
     })
+    .catch(() => { /* Noop */ })
 }
 
 /**

@@ -11,9 +11,9 @@ skills to a company.
 
 `npm start` - View the current console help message
 
-`npm start -p` - Start a new tic tac toe game
+`npm start -- -p` - Start a new tic tac toe game
 
-`npm start -s` - Displays the current high scores list
+`npm start -- -s` - Displays the current high scores list
 
 ## Scoring
 
