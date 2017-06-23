@@ -1,0 +1,47 @@
+Console Tic-Tac-Toe
+
+For this project I decided to build the game of tic-tac-toe. I really enjoyed
+this exercise and it was fun to build both a console game and learn the
+algorithms involved in building a computer opponent for tic-tac-toe. I found
+the algorithm to be quite similar to A* and other path finding or depth first
+search algorithms I have previously implemented. I think this is an excellent
+game to build when first starting to learn those types of searching algorithms.
+
+My goal was to spend roughly the same amount of time on all aspects of this game,
+from console graphics, to ai and general polish at the end. I wouldn't say this
+is the best or cleanest code I have ever written, and it could use a few
+more iterations, but all in all, it works, and I shouldn't spend any more time
+on it than I already have.
+
+Because I decided to make this a console game I also went with a retro style
+for player management, reminiscent of old arcade games. So when playing the
+game you are just referred to as `Player`. When you beat the computer, you
+can chose to save your high score along with the traditional arcade style 3
+letter nickname. I also opted for a column based high score list also reminiscent
+of old arcade games.
+
+To run the game, first make sure you have the latest version of Node and NPM
+installed on your system.
+
+1. Open up a console in the root project folder.
+2. Run `npm install`
+3. Run `npm start` and the game should spit out some basic console help message
+Type `npm start -p` to play a new game
+Type `npm start -s` to see a list of high scores
+
+Test Cases
+- Run `npm test` to see test case output
+
+Lint
+- Run `npm run lint` to lint the files in the project
+
+High Scores
+- High scores are save under the .json file high-scores in the root project directory
+
+(Note: I have intentionally made the AI dumb at points to allow the player to
+win, but the ai should still be challenging)
+
+Problems
+- Didn't really run into any major problems, just time and a few bugs in the
+minimax algorithm. I did not implement complete test coverage due to time, but
+I certainly could have if I this was production level project.

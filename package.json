@@ -1,0 +1,27 @@
+{
+  "name": "console-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A console version of tic-tac-toe",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "standard --fix",
+    "test": "mocha --recursive"
+  },
+  "author": "Todd Bluhm",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "chalk": "^1.1.3",
+    "clone-deep": "^0.3.0",
+    "columnify": "^1.5.4",
+    "commander": "^2.9.0",
+    "jsonfile": "^3.0.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "better-assert": "^1.0.2",
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2"
+  }
+}
