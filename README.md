@@ -18,6 +18,7 @@ skills to a company.
 ## Scoring
 
 Scoring is based on 3 parameters
+
 - Winner/Loser (no score if you lose)
 - Number of moves to win
 - How long did it take in seconds to win
